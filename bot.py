@@ -15,6 +15,10 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
+        
+if 'Bucky' in message.content:
+    await message.channel.send("*grogne*")
+    return
 
     if random.randint(1, 50) == 1:
         reponses = [
