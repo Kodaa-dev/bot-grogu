@@ -16,7 +16,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if random.randint(1, 10) == 1:
+    if random.randint(1, 20) == 1:
         reponses = [
             "Wouaf !",
             "Ouaf ouaf !",
