@@ -19,6 +19,10 @@ async def on_message(message):
     if 'Bucky' in message.content:
         await message.reply("*grogne*")
         return
+        
+    if 'Flaversham' in message.content:
+        await message.reply("*creuse une tombe dans le serveur* Repose en paix, petite souris.")
+        return
 
     if random.randint(1, 50) == 1:
         reponses = [
