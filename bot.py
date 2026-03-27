@@ -17,7 +17,7 @@ async def on_message(message):
         return
         
     if 'Bucky' in message.content:
-        await message.channel.send("*grogne*")
+        await message.reply("*grogne*")
         return
 
     if random.randint(1, 50) == 1:
